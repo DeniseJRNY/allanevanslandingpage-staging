@@ -728,6 +728,24 @@
             position: relative;
         }
 
+        
+        /* Testimonial Avatar */
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--accent);
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Syncopate', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+        }
+
         .testimonial-stars {
             color: var(--accent);
             margin-bottom: 16px;
@@ -1130,7 +1148,7 @@
             </a>
             <div class="header-cta">
                 <a href="tel:1300110080" class="header-phone">1300 110 080</a>
-                <a href="#" class="btn-primary" onclick="openModal(); return false;">Book Discovery Call</a>
+                <a href="#" class="btn-primary" onclick="openModal(); return false;">Book Your Discovery Call</a>
             </div>
         </div>
     </header>
@@ -1162,10 +1180,7 @@
                         Sydney CBD &mdash; Level 26, 1 Bligh Street
                     </li>
                 </ul>
-                <div class="hero-buttons">
-                    <a href="#" class="btn-primary btn-large" onclick="openModal(); return false;">Claim Your Complimentary Discovery Call</a>
-                    <a href="tel:1300110080" class="btn-outline btn-large">Call 1300 110 080</a>
-                </div>
+                
             </div>
             <div class="hero-form-wrapper">
                 <h3>Get Started Today</h3>
@@ -1196,10 +1211,10 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="hero-message">Brief Description (Optional)</label>
+                        <label for="hero-message">Brief Description</label>
                         <textarea id="hero-message" name="message" placeholder="Tell us briefly about your situation..."></textarea>
                     </div>
-                    <button type="submit" class="btn-primary form-submit">Request My Discovery Call</button>
+                    <button type="submit" class="btn-primary form-submit">Book Your Discovery Call</button>
                     <p class="form-privacy">Your information is 100% confidential. We never share your details.</p>
                 </form>
             </div>
@@ -1224,6 +1239,10 @@
             <div class="trust-item">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M14.167 2.5H5.833a.833.833 0 00-.833.833v13.334c0 .46.373.833.833.833h8.334c.46 0 .833-.373.833-.833V3.333a.833.833 0 00-.833-.833z" stroke="currentColor" stroke-width="1.5"/><path d="M7.5 6.667h5M7.5 10h5M7.5 13.333h2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
                 <span><strong>Law Society</strong> Member</span>
+            
+                <div class="trust-item">
+                    <img src="https://ik.imagekit.io/2z8yysunx/Allan%20Evans/Allan%20Evans%20Family%20Lawyers%20Branding%20(1).png" alt="Law Society of NSW" style="height: 36px; width: auto; filter: brightness(0) invert(1); opacity: 0.8;">
+                </div>
             </div>
         </div>
     </div>
@@ -1272,42 +1291,42 @@
             </div>
             <div class="services-grid">
                 <div class="service-card fade-in">
-                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Property Settlement">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80" alt="Property Settlement">
                     <div class="service-content">
                         <h3>Property &amp; Financial Settlement</h3>
                         <p>Strategic division of assets including complex and high-net-worth matters.</p>
                     </div>
                 </div>
                 <div class="service-card fade-in">
-                    <img src="https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=600&q=80" alt="Children's Matters">
+                    <img src="https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=600&q=80" alt="Children's Matters">
                     <div class="service-content">
                         <h3>Children &amp; Parenting</h3>
                         <p>Sensitive arrangements focused on the best interests of your children.</p>
                     </div>
                 </div>
                 <div class="service-card fade-in">
-                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&q=80" alt="Separation & Divorce">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80" alt="Separation & Divorce">
                     <div class="service-content">
                         <h3>Separation &amp; Divorce</h3>
                         <p>Clear guidance through separation and the divorce process.</p>
                     </div>
                 </div>
                 <div class="service-card fade-in">
-                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80" alt="Spousal Maintenance">
+                    <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=600&q=80" alt="Spousal Maintenance">
                     <div class="service-content">
                         <h3>Spousal Maintenance</h3>
                         <p>Urgent financial support claims handled with precision.</p>
                     </div>
                 </div>
                 <div class="service-card fade-in">
-                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" alt="Mediation">
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80" alt="Mediation">
                     <div class="service-content">
                         <h3>Mediation &amp; Negotiation</h3>
                         <p>Resolving disputes efficiently without unnecessary court proceedings.</p>
                     </div>
                 </div>
                 <div class="service-card fade-in">
-                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80" alt="Pre-Nuptial Agreements">
+                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80" alt="Pre-Nuptial Agreements">
                     <div class="service-content">
                         <h3>Pre-Nuptial Agreements</h3>
                         <p>Protecting your position before marriage or de facto relationships.</p>
@@ -1322,7 +1341,7 @@
         <div class="cta-band-inner">
             <h2>Ready to Gain Clarity on Your Situation?</h2>
             <p>Book a complimentary discovery call with our senior family lawyer. No obligation, just clear initial guidance.</p>
-            <a href="#" class="btn-primary btn-large" onclick="openModal(); return false;">Book Your Complimentary Call</a>
+            <a href="#" class="btn-primary btn-large" onclick="openModal(); return false;">Book Your Discovery Call</a>
         </div>
     </div>
 
@@ -1358,7 +1377,7 @@
                             Access to Sydney's best forensic experts &amp; valuers
                         </li>
                     </ul>
-                    <a href="#" class="btn-primary" onclick="openModal(); return false;">Speak With Mary</a>
+                    <a href="#" class="btn-primary" onclick="openModal(); return false;">Book Your Discovery Call</a>
                 </div>
             </div>
         </div>
@@ -1446,19 +1465,22 @@
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card fade-in">
+                    <div class="testimonial-avatar">JT</div>
                     <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <blockquote>"Exceptional expertise and strong industry connections. Mary's commercially-minded advice gave me the clarity and confidence I needed during a very difficult time."</blockquote>
-                    <p class="testimonial-author">James T. <span>&mdash; Sydney Professional</span></p>
+                    <p class="testimonial-author">James T. <span>&mdash; Finance Director, Sydney CBD</span></p>
                 </div>
                 <div class="testimonial-card fade-in">
+                    <div class="testimonial-avatar">SM</div>
                     <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <blockquote>"The strategic conference was a game-changer. Within two weeks I had a clear plan and knew exactly where I stood. The transparency around costs was refreshing."</blockquote>
-                    <p class="testimonial-author">Sarah M. <span>&mdash; Eastern Suburbs</span></p>
+                    <p class="testimonial-author">Sarah M. <span>&mdash; Marketing Executive, Eastern Suburbs</span></p>
                 </div>
                 <div class="testimonial-card fade-in">
+                    <div class="testimonial-avatar">MR</div>
                     <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <blockquote>"Professional, discreet, and always available. Mary's experience navigating complex property matters was invaluable. I felt heard and supported throughout."</blockquote>
-                    <p class="testimonial-author">Michael R. <span>&mdash; Lower North Shore</span></p>
+                    <p class="testimonial-author">Michael R. <span>&mdash; Business Owner, Lower North Shore</span></p>
                 </div>
             </div>
         </div>
@@ -1469,7 +1491,7 @@
         <div class="cta-band-inner">
             <h2>Take the First Step Toward Clarity</h2>
             <p>Speak confidentially with a senior family lawyer who understands what's at stake. Available to get started this week.</p>
-            <a href="#" class="btn-primary btn-large" onclick="openModal(); return false;">Claim Your Complimentary Discovery Call</a>
+            <a href="#" class="btn-primary btn-large" onclick="openModal(); return false;">Book Your Discovery Call</a>
         </div>
     </div>
 
@@ -1591,7 +1613,7 @@
 
     <!-- STICKY MOBILE CTA -->
     <div class="sticky-cta">
-        <a href="#" class="btn-primary" onclick="openModal(); return false;">Book Your Free Discovery Call</a>
+        <a href="#" class="btn-primary" onclick="openModal(); return false;">Book Your Discovery Call</a>
     </div>
 
     <!-- MODAL -->
@@ -1625,7 +1647,7 @@
                         <option value="other">Other Family Law Matter</option>
                     </select>
                 </div>
-                <button type="submit" class="btn-primary form-submit">Request My Discovery Call</button>
+                <button type="submit" class="btn-primary form-submit">Book Your Discovery Call</button>
                 <p class="form-privacy">100% confidential. We never share your details.</p>
             </form>
         </div>
